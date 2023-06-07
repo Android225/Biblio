@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical">
+
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Enter Name"></EditText>
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Enter Email"></EditText>
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:hint="Enter Password" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <Button
+            android:id="@+id/btnAdd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"></Button>
+
+        <Button
+            android:id="@+id/btnRead"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"></Button>
+
+        <Button
+            android:id="@+id/btnClear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"></Button>
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/etBook"
+        android:layout_width="match_parent"
+        android:layout_height="64dp"
+        android:hint="Enter Book"></EditText>
+
+    <EditText
+        android:id="@+id/etAuthor"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:hint="Enter Author"></EditText>
+
+    <EditText
+        android:id="@+id/etSummary"
+        android:layout_width="match_parent"
+        android:layout_height="71dp"
+        android:ems="10"
+        android:hint="Enter Summary" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <Button
+            android:id="@+id/btnAddBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Add"></Button>
+
+        <Button
+            android:id="@+id/btnReadBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Read"></Button>
+
+        <Button
+            android:id="@+id/btnClearBook"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Clear"></Button>
+    </LinearLayout>
+
+</LinearLayout>
